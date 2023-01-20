@@ -46,11 +46,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>$(ProjectDir)lib\DirectXTex\lib\$(Configuration);$(ProjectDir)lib\imgui\lib\$(Configuration);$(LibraryPath)</LibraryPath>
-    <IncludePath>$(ProjectDir)lib\DirectXTex\include;$(ProjectDir)lib\imgui\include;$(ProjectDir)lib\DirectXTex\lib;$(ProjectDir)lib\imgui\lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)lib\DirectXTex\include;$(ProjectDir)lib\imgui\include;$(ProjectDir)lib\DirectXTex\lib\Debug;$(ProjectDir)lib\imgui\lib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)lib\DirectXTex\include;$(ProjectDir)lib\imgui\include;$(ProjectDir)lib\DirectXTex\lib;$(ProjectDir)lib\imgui\lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)lib\DirectXTex\include;$(ProjectDir)lib\imgui\include;$(ProjectDir)lib\DirectXTex\lib\Debug;$(ProjectDir)lib\imgui\lib;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)lib\DirectXTex\lib\$(Configuration);$(ProjectDir)lib\imgui\lib\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
