@@ -17,6 +17,10 @@
 mono_crash.*
 
 # Build results
+# [Dd]ebug/
+# [Dd]ebugPublic/
+# [Rr]elease/
+# [Rr]eleases/
 x64/
 x86/
 [Ww][Ii][Nn]32/
@@ -75,7 +79,7 @@ StyleCopReport.xml
 *.iobj
 *.pch
 *.pdb
-*.ipdb
+.ipdb
 *.pgc
 *.pgd
 *.rsp
